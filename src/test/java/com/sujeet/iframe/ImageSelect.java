@@ -18,10 +18,11 @@ public class ImageSelect {
 			if (driver.getTitle().equals("Facebook - log in or sign up")) {							
             System.out.println("We are back at Facebook's homepage");					
         } else {			
-            System.out.println("We are NOT in Facebook's homepage");					
+            System.out.println("We are NOT in Facebook's homepage");	
+				
         }		
 				driver.close();		
 
     }		
-
+ System.out.println("We are NOT in Facebook's homepage");
 }
