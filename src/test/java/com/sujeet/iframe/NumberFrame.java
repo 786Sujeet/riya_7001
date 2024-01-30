@@ -15,6 +15,7 @@ public class NumberFrame {
 		driver.manage().window().maximize();
 		driver.get("https://chercher.tech/practice/frames-example-selenium-webdriver");
 		Thread.sleep(2000);
+System.out.println(frames.size());
 		List<WebElement> frames = driver.findElements(By.tagName("iframe"));
 	
 	System.out.println(frames.size());
