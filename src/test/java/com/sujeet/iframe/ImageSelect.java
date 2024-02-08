@@ -23,6 +23,7 @@ public class ImageSelect {
         }		
 				driver.close();		
 
-    }		
+    }	
+ System.out.println("We are NOT in Facebook's homepage");	
  System.out.println("We are NOT in Facebook's homepage");
 }
